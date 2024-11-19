@@ -1,0 +1,84 @@
+{
+    "articles": [
+        {
+            "title": "Development and testing of a game-based digital intervention for working memory training in autism spectrum disorder",
+            "author": [
+                "Surbhit Wagle",
+                "Arka Ghosh",
+                "P Karthic",
+                "Akriti Ghosh",
+                "Tarana Pervaiz",
+                "Rashmi Kapoor",
+                "Koumudi Patil",
+                "Nitin Gupta"
+            ],
+            "journal": "Scientific Reports",
+            "publisher": "Springer Science and Business Media LLC",
+            "volume": 11,
+            "number": 1,
+            "pages": "13800",
+            "month": "July",
+            "year": 2021,
+            "copyright": "https://creativecommons.org/licenses/by/4.0",
+            "doi": "10.1038/s41598-021-93258-w",
+            "image" : "./images/scirep_2021.jpg",
+            "url" : "https://www.nature.com/articles/s41598-021-93258-w"
+        },
+        {
+            "title": "Computational insights into mRNA and protein dynamics underlying synaptic plasticity rules",
+            "author": [
+                "Surbhit Wagle",
+                "Nataliya Kraynyukova",
+                "Anne Sophie Hafner",
+                "Tatjana Tchumatchenko"
+            ],
+            "journal": "Molecular and Cellular Neuroscience",
+            "volume": 125,
+            "pages": "103846",
+            "year": 2023,
+            "issn": "1044-7431",
+            "doi": "https://doi.org/10.1016/j.mcn.2023.103846",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1044743123000404",
+            "image" : "./images/mcn_2023.jpg"
+        },
+        {
+            "title": "An Unguided, Computerized Cognitive Behavioral Therapy Intervention (TreadWill) in a Lower Middle-Income Country: Pragmatic Randomized Controlled Trial",
+            "author": [
+                "Arka Ghosh",
+                "Rithwik J Cherian",
+                "Surbhit Wagle",
+                "Parth Sharma",
+                "Karthikeyan R Kannan",
+                "Alok Bajpai",
+                "Nitin Gupta"
+            ],
+            "journal": "Journal of Medical Internet Research",
+            "year": 2023,
+            "month": "April",
+            "day": 26,
+            "volume": 25,
+            "pages": "e41005",
+            "issn": "1438-8871",
+            "doi": "10.2196/41005",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/37099376",
+            "image" : "./images/JMIR_2023.jpg"
+        },
+        {
+            "title": "SpyDen: Automating molecular and structural analysis across spines and dendrites",
+            "author": [
+                "Surbhit Wagle",
+                "Maximilian F Eggl",
+                "Jean P Filling",
+                "Thomas E Chater",
+                "Yukiko Goda",
+                "Tatjana Tchumatchenko"
+            ],
+            "journal": "bioRxiv",
+            "pages": "2024-06",
+            "year": 2024,
+            "publisher": "Cold Spring Harbor Laboratory",
+            "url": "https://www.biorxiv.org/content/10.1101/2024.06.07.597872v1",
+            "image" : "./images/SpyDen_2024.jpg"
+        }
+    ]
+}
