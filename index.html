@@ -213,7 +213,7 @@
 
 <!--Experience-->
 <section id="experience" class="secPad">
-<div class="container">
+<div id ="experience_container"class="container">
 <div class="heading">
   <!-- Heading -->
   <h2>Publications</h2>
@@ -221,7 +221,7 @@
   <!-- <h4>Publications and preprints! </h4>
   </div> -->
 
-<div id="inexperience" class="row">
+<!-- <div id="inexperience" class="row"> -->
 	<!-- <div class="col-md-3 col-sm-6">
 		<div class="exp-wrapper">
 			<img src="images/client-1.png" width="90" alt="Name">
@@ -251,8 +251,8 @@
 		</div>
 	</div> -->
 
-</div>
-<script>
+<!-- </div> -->
+<!-- <script>
 // Function to fetch the papers.json file and generate HTML
 fetch('./papers.json')
   .then(response => response.json()) // Parse the JSON file
@@ -312,7 +312,79 @@ fetch('./papers.json')
   .catch(error => {
     console.error('Error loading the papers:', error);
   });
-  </script>
+  </script> -->
+  <!-- <div id="articles-container">
+  Article rows will be dynamically appended here
+</div> -->
+
+<script>
+  // Inline JavaScript to fetch the papers.json and generate HTML dynamically with 4 tiles per row
+  fetch('papers.json')
+    .then(response => response.json()) // Parse the JSON file
+    .then(data => {
+      const articles = data.articles; // Access the articles array
+      const container = document.getElementById('experience_container'); // Container to append rows
+      let currentRow; // Variable to track the current row
+
+      articles.forEach((article, index) => {
+        // Start a new row every 4 articles
+        if (index % 4 === 0) {
+          currentRow = document.createElement('div');
+          currentRow.classList.add('row'); // Add Bootstrap row class
+          container.appendChild(currentRow); // Append the new row to the container
+        }
+
+        // Create a div for each article
+        const articleDiv = document.createElement('div');
+        articleDiv.classList.add('col-md-3', 'col-sm-6');
+
+        // Create the exp-wrapper div
+        const expWrapper = document.createElement('div');
+        expWrapper.classList.add('exp-wrapper');
+
+        // Create the image element
+        const img = document.createElement('img');
+        img.src = article.image;  // Static image source
+        img.alt = article.title;  // Use article title as alt text
+        img.width = 90;  // Set image width
+
+        // Create the title (h3) element
+        const title = document.createElement('h3');
+        title.textContent = article.title;
+
+        // Create the paragraph for the journal and year
+        const journalInfo = document.createElement('p');
+        journalInfo.textContent = `${article.journal} (${article.year})`;
+
+        // Create the authors paragraph
+        const authors = document.createElement('p');
+        authors.innerHTML = `<strong>Authors:</strong> ${article.author.join(', ')}`;
+
+        // Create the "Read More" link
+        const readMoreLink = document.createElement('a');
+        readMoreLink.href = article.url ? article.url[0] : '#';
+        readMoreLink.target = '_blank';
+        readMoreLink.textContent = "Read More";
+
+        // Append elements to the exp-wrapper
+        expWrapper.appendChild(img);
+        expWrapper.appendChild(title);
+        expWrapper.appendChild(journalInfo);
+        expWrapper.appendChild(authors);
+        expWrapper.appendChild(readMoreLink);
+
+        // Append exp-wrapper to the articleDiv
+        articleDiv.appendChild(expWrapper);
+
+        // Append the articleDiv to the current row
+        currentRow.appendChild(articleDiv);
+      });
+    })
+    .catch(error => {
+      console.error('Error loading the papers:', error);
+    });
+</script>
+
 </section>
 
 <!--Portfolio-->
@@ -320,7 +392,7 @@ fetch('./papers.json')
   <div class="container">
     <div class="heading">
       <!-- Heading -->
-      <h2>Updates</h2>
+      <h2>Research</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium. Cras posuere dolor risus. Pellentesque elementum ultricies quam, sit amet rhoncus nisl viverra in. Cras imperdiet nisi a euismod molestie. Ut a metus arcu. Pellentesque feugiat dictum erat.</p>
     </div>
     <div class="row">
