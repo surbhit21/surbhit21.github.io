@@ -41,7 +41,6 @@ p {
 	border-radius: 0px !important;
 }
 .button-outline {
-	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	vertical-align: middle;
 	zoom: 1;
@@ -738,13 +737,13 @@ nav#filter li {
 	display: inline-block;
 	margin: 0 0 0 5px;
 }
-nav#filter a {
+/* nav#filter a {
 	padding: 4px 12px;
 	line-height: 20px;
 	text-decoration: none;
 	background:#fff;
 	color:#737373;
-}
+} */
 a.current {
 	color: #5887FF !important;
 }
@@ -1167,4 +1166,15 @@ nav#filter li {
 	-ms-user-select: none;
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-light{
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+}
+.btn-outline-info {
+color: #17a2b8;
+background-color: transparent;
+background-image: none;
+border-color: #17a2b8;
 }

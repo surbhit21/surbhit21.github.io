@@ -11,7 +11,7 @@
 <!--[if lt IE 9]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
-<title>Edited_Free-Portfolio-HTML5-Responsive-Website-Sam_by_surbhit</title>
+<title>Surbhit's personal website</title>
 <meta name="description" content="">
 <meta name="author" content="WebThemez">
 <!--[if lt IE 9]>
@@ -43,7 +43,8 @@
           <li><a href="#aboutMe" class="scroll-link">About Me</a></li>
           <li><a href="#skills" class="scroll-link">Skills</a></li>
           <li><a href="#experience" class="scroll-link">Publications</a></li>
-          <li><a href="#portfolio" class="scroll-link">News</a></li>
+          <li><a href="#portfolio" class="scroll-link">Projects</a></li>
+          <!-- <li><a href="#portfolio" class="scroll-link">News</a></li> -->
           <li><a href="#contactUs" class="scroll-link">Contact</a></li>
         </ul>
       </div>
@@ -169,7 +170,10 @@
     <div class="row">
       <div class="col-sm-6">
         <h2>Programming Skills</h2>
-        <p class="mrgBtm20"> As a computational neuroscientist I have developed strong technical skills in several programming language and frameworks. </p>
+        <p class="mrgBtm20"> As a computational neuroscientist I have developed
+          strong technical skills in several programming language and frameworks.
+          For more details checkout my CV (<a href="./surbhit_cv.pdf">here</a>).
+         </p>
       </div>
       <div class="col-sm-6"> <br/>
         <br/>
@@ -364,7 +368,7 @@ fetch('./papers.json')
         const readMoreLink = document.createElement('a');
         readMoreLink.href = article.url ? article.url[0] : '#';
         readMoreLink.target = '_blank';
-        readMoreLink.textContent = "Read More";
+        readMoreLink.textContent = "Read paper";
 
         // Append elements to the exp-wrapper
         expWrapper.appendChild(img);
@@ -392,109 +396,97 @@ fetch('./papers.json')
   <div class="container">
     <div class="heading">
       <!-- Heading -->
-      <h2>Research</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium. Cras posuere dolor risus. Pellentesque elementum ultricies quam, sit amet rhoncus nisl viverra in. Cras imperdiet nisi a euismod molestie. Ut a metus arcu. Pellentesque feugiat dictum erat.</p>
+      <h2>Research Projects</h2>
+      <p> Here you can find out the exiciting research projects I worked on over my academic carrier. Curious? Click on the project you want to know more about!!</p>
     </div>
     <div class="row">
       <nav id="filter" class="col-md-12">
         <ul>
-          <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-          <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
-          <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
-          <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+          <li><a href="#" class="current btn btn-light" data-filter="*">All</a></li>
+          <li><a href="#" class="btn btn-light" data-filter=".toold">Tool development</a></li>
+          <li><a href="#" class="btn btn-light" data-filter=".CogNeuro">Cognitive Neuroscience</a></li>
+          <li><a href="#" class="btn btn-light" data-filter=".CompNeuro">Computational Neuroscience</a></li>
         </ul>
       </nav>
-      <!-- <div class="col-md-12">
+      <div class="col-md-12">
         <div class="row">
-          <div class="portfolio-items isotopeWrapper clearfix" id="3">
-            <article class="col-sm-4 isotopeItem webdesign">
-              <div class="portfolio-item"> <img src="images/portfolio/img1.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img1.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img2.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img2.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img3.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img3.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="images/portfolio/img4.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img4.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img5.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img5.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem webdesign">
-              <div class="portfolio-item"> <img src="images/portfolio/img6.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img6.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="images/portfolio/img7.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img7.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img8.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img8.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="images/portfolio/img9.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img9.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
+          <div class="portfolio-items isotopeWrapper clearfix" id="res-grid">
+
+            <!-- // research articles are added here -->
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </section>
+<script>
+fetch('projects.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to fetch JSON file');
+        }
+        return response.json();
+    })
+    .then(data => {
+        const projects = data.projects;
+        const container = document.getElementById('res-grid');
 
+        projects.forEach(project => {
+            // Create the article element
+            const article = document.createElement('article');
+            article.classList.add('col-sm-4', 'isotopeItem');
+
+            project.tags.forEach(tag => {
+              console.log(tag);
+              article.classList.add(tag);
+            });
+            // Create the portfolio item div
+            const portfolioItem = document.createElement('div');
+            portfolioItem.classList.add('portfolio-item');
+
+            // Add the image
+            const img = document.createElement('img');
+            img.src = project.image;
+            img.alt = '';
+            img.width = 300;
+            img.height = 300;
+            portfolioItem.appendChild(img);
+
+            // Create the portfolio description div
+            const portfolioDesc = document.createElement('div');
+            portfolioDesc.classList.add('portfolio-desc', 'align-center');
+
+            // Create the folio info div
+            const folioInfo = document.createElement('div');
+            folioInfo.classList.add('folio-info');
+
+            // Create the link
+            const link = document.createElement('a');
+            link.href = project.link;
+            link.classList.add("fancybox");
+            // Add the title and icon
+            const title = document.createElement('h5');
+            title.textContent = project.title;
+
+            const icon = document.createElement('i');
+            icon.classList.add('fa', 'fa-plus-square-o', 'fa-2x');
+
+            // Append elements
+            link.appendChild(title);
+            link.appendChild(icon);
+            folioInfo.appendChild(link);
+            portfolioDesc.appendChild(folioInfo);
+            portfolioItem.appendChild(portfolioDesc);
+            article.appendChild(portfolioItem);
+
+            // Append article to container
+            container.appendChild(article);
+        });
+    })
+    .catch(error => {
+        console.error('Error loading JSON:', error);
+    });
+</script>
 <!--Contact -->
 <section id="contactUs" class="page-section secPad">
   <div class="container">

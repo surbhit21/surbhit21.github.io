@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable Div Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 4 per row with flexibility */
+            gap: 20px; /* Space between items */
+        }
+
+        .expandable {
+            position: relative;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            background-size: cover; /* Ensure background covers entire area */
+            background-position: center; /* Center the background image */
+            background-image: url('https://via.placeholder.com/400x200'); /* Replace with your image URL */
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+            overflow: hidden;
+        }
+
+        .details {
+            display: none; /* Initially hidden */
+            margin-top: 10px;
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .toggle-btn {
+            cursor: pointer;
+            color: #ffdd00;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .toggle-btn:hover {
+            text-decoration: none;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Darken the background image */
+            border-radius: 5px;
+            z-index: 0;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid-container">
+    <!-- Each expandable div will be added dynamically -->
+</div>
+
+<script>
+    const articles = [
+        { title: "Article 1", authors: "Author A, Author B", journal: "Journal 1", year: 2023 },
+        { title: "Article 2", authors: "Author C, Author D", journal: "Journal 2", year: 2023 },
+        { title: "Article 3", authors: "Author E, Author F", journal: "Journal 3", year: 2023 },
+        { title: "Article 4", authors: "Author G, Author H", journal: "Journal 4", year: 2023 },
+    ];
+
+    const container = document.querySelector('.grid-container');
+
+    articles.forEach(article => {
+        // Create the expandable div
+        const expandableDiv = document.createElement('div');
+        expandableDiv.classList.add('expandable');
+
+        // Add overlay
+        const overlay = document.createElement('div');
+        overlay.classList.add('overlay');
+        expandableDiv.appendChild(overlay);
+
+        // Add content
+        const content = document.createElement('div');
+        content.classList.add('content');
+
+        const title = document.createElement('h3');
+        title.textContent = article.title;
+        content.appendChild(title);
+
+        const shortDesc = document.createElement('p');
+        shortDesc.textContent = "Short description about the article...";
+        content.appendChild(shortDesc);
+
+        const toggleBtn = document.createElement('span');
+        toggleBtn.textContent = "Show Details";
+        toggleBtn.classList.add('toggle-btn');
+        toggleBtn.onclick = function () {
+            const details = this.parentElement.querySelector('.details'); // Scoped to this content
+            if (details.style.display === "none" || !details.style.display) {
+                details.style.display = "block";
+                this.textContent = "Hide Details";
+            } else {
+                details.style.display = "none";
+                this.textContent = "Show Details";
+            }
+        };
+        content.appendChild(toggleBtn);
+
+        const detailsDiv = document.createElement('div');
+        detailsDiv.classList.add('details');
+        detailsDiv.style.display = "none"; // Ensure initially hidden
+        detailsDiv.innerHTML = `
+            <p><strong>Authors:</strong> ${article.authors}</p>
+            <p><strong>Journal:</strong> ${article.journal}</p>
+            <p><strong>Year:</strong> ${article.year}</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        `;
+        content.appendChild(detailsDiv);
+
+        expandableDiv.appendChild(content);
+
+        // Append to grid container
+        container.appendChild(expandableDiv);
+    });
+</script>
+
+
+</body>
+</html>
