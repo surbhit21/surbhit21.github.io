@@ -222,105 +222,7 @@
   <!-- Heading -->
   <h2>Publications</h2>
   <br/>
-  <!-- <h4>Publications and preprints! </h4>
-  </div> -->
-
-<!-- <div id="inexperience" class="row"> -->
-	<!-- <div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-1.png" width="90" alt="Name">
-			<h3>Work Day Look</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-5.png" width="90" alt="Name">
-			<h3>Yahoo</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. </p>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-3.png" width="90" alt="Name">
-			<h3>jQuery</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-4.png" width="90" alt="Name">
-			<h3>Flickr</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-		</div>
-	</div> -->
-
-<!-- </div> -->
-<!-- <script>
-// Function to fetch the papers.json file and generate HTML
-fetch('./papers.json')
-  .then(response => response.json()) // Parse the JSON file
-  .then(data => {
-    const articles = data.articles; // Access the articles array
-    const container = document.getElementById('inexperience'); // Container to append articles
-
-    articles.forEach(article => {
-      // console.log("found paper",article.title)
-      // Create a div for each article
-      const articleDiv = document.createElement('div');
-      articleDiv.classList.add('col-md-3', 'col-sm-6');
-
-      // Create the exp-wrapper div
-      const expWrapper = document.createElement('div');
-      expWrapper.classList.add('exp-wrapper');
-
-      // Create the image element
-      const img = document.createElement('img');
-      img.src = article.image;  // Static image source
-      img.alt = article.title;  // Use article title as alt text
-      img.width = 90;  // Set image width
-
-      // Create the title (h3) element
-      const title = document.createElement('h3');
-      title.textContent = article.title;
-
-      // Create the paragraph for the journal and year
-      const journalInfo = document.createElement('p');
-      journalInfo.textContent = `${article.journal} (${article.year})`;
-
-      // Create the authors paragraph
-      const authors = document.createElement('p');
-      authors.innerHTML = `<strong>Authors:</strong> ${article.author.join(', ')}`;
-
-      // Create the "Read More" link
-      const readMoreLink = document.createElement('a');
-      readMoreLink.href = article.url ;
-      console.log(readMoreLink.href,article.url)
-      readMoreLink.target = '_blank';
-      readMoreLink.textContent = "Read More";
-
-      // Append elements to the exp-wrapper
-      expWrapper.appendChild(img);
-      expWrapper.appendChild(title);
-      expWrapper.appendChild(journalInfo);
-      expWrapper.appendChild(authors);
-      expWrapper.appendChild(readMoreLink);
-
-      // Append exp-wrapper to the articleDiv
-      articleDiv.appendChild(expWrapper);
-
-      // Append the articleDiv to the container
-      container.appendChild(articleDiv);
-    });
-  })
-  .catch(error => {
-    console.error('Error loading the papers:', error);
-  });
-  </script> -->
-  <!-- <div id="articles-container">
-  Article rows will be dynamically appended here
-</div> -->
-
+</section>
 <script>
   // Inline JavaScript to fetch the papers.json and generate HTML dynamically with 4 tiles per row
   fetch('papers.json')
@@ -388,8 +290,6 @@ fetch('./papers.json')
       console.error('Error loading the papers:', error);
     });
 </script>
-
-</section>
 
 <!--Portfolio-->
 <section id="portfolio" class="page-section section appear clearfix secPad">
@@ -540,7 +440,7 @@ fetch('projects.json')
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="social pull-left"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-flickr"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
+        <div class="social pull-left">  <a href="https://github.com/surbhit21"><i class="fa fa-github"></i></a> </div>
       </div>
       <div class="col-md-6"> <span class="pull-right">Copyright 2014 | All Rights Reserved  -- Template by <a href="http://webThemez.com">WebThemez.com</a></span> </div>
     </div>
