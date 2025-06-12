@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
 ======
@@ -46,4 +46,12 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+
+I am a PhD student in the research group of Prof. Tatjana Tchumatchenko at the University Hospital in Bonn, Germany. For my PhD project, I developed models of mRNA and protein trafficking to understand mechanisms of synaptic plasticity ([preprint](https://www.biorxiv.org/content/10.1101/2025.02.08.637220v1)). I also developed a semi-automated tool for simplifying structural and molecular analysis of neuronal imaging data ([preprint](https://www.biorxiv.org/content/10.1101/2024.06.07.597872v1)). For an overview of biophysical modeling of mRNA and protein trafficking, read our published review [here](https://www.sciencedirect.com/science/article/pii/S1044743123000404?via%3Dihub).
+
+Brief history
+-----
+Before starting my PhD in 2020, I worked as a junior research fellow in the laboratory of Prof. Upinder Singh Bhalla at the National Centre for Biological Science in Bangalore, India. In his lab, I worked on developing a web-interface for the FindSim tool. I also managed to set-up the heavy simulations on the supercomputers at Neuroscience gateway at UCSD using REST framework. In addition to these software development projects, I also worked on optimizing a biochemical signaling model of autism.  I obtained my M.Tech from Biological Sciences and BioEngineering department  at the Indian Institute for Technology Kanpur, India. I wrote my master's theis on a novel smarthphone/android-based suite of games that for autistic children (paper). Before that, I did my bachelor's in computer engineering.  
+
+My research intersts include modeling synaptic plasticity, neuro-inspired deep learning, memory formation and data analysis.

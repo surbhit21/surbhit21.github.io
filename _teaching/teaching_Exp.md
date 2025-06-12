@@ -2,6 +2,8 @@
 title: "Teaching and Mentoring"
 collection: teaching
 permalink: /academic/teaching/
+date: 2015-01-01
+
 ---
 
 - **2024**: Teaching Assistant, *Computational Methods in Neuroscience* — Bonn, Germany  

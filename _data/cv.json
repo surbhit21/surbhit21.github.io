@@ -1,43 +1,57 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Surbhit Wagle",
+    "email": "surbhit@uni-bonn.de",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://surbhit21.github.io",
+    "summary": "Computational neuroscientist working on models of synaptic plasticity and protein trafficking",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Bonn, Germanys",
+      "countryCode": "DE",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=ztfdE94AAAAJ&hl=enJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-3825-6875"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "surbhit21",
+        "url": "https://github.com/surbhit21"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "National Center for Biological Sciences/Institute for Stem Cell Biology and Regenerative Medicine",
+      "position": "Research Intern",
+      "website": "https://www.ncbs.res.in",
+      "startDate": "2018-11-15",
+      "endDate": "2020-04-01",
+      "summary": "Working on computational models of synaptic plasticity and protein trafficking.",
+      "highlights": [
+        "Developed models integrating mRNA and protein dynamics in synaptic plasticity.",
+        "Automated analysis tools for neuronal morphology."
+      ]
+    }
+  
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Rhenish Friedrich Wilhelm University of Bonn",
+      "area": "Ph.D in Computational Neuroscience",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2025",
       "gpa": null,
       "courses": []
     },
@@ -65,34 +79,44 @@
   "interests": [],
   "references": [],
   "publications": [
+    
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Development and testing of a game-based digital intervention for working memory training in autism spectrum disorder",
+      "publisher": "Science Reports",
+      "releaseDate": "2021-07-05",
+      "website": "https://doi.org/10.1038/s41598-021-93258-w",
+      "summary": "The study developed and tested five smartphone-based games designed to improve working memory in children with autism spectrum disorder (ASD), considering their sensory preferences and behavioral traits. While the one-month pilot intervention showed no significant overall improvements, better in-game performance was linked to individual gains in working memory, suggesting potential with extended use."
     },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
+      {
+        "name": "Computational insights into mRNA and protein dynamics underlying synaptic plasticity rules",
+        "publisher": "Molecular and Cellular Neuroscience",
+        "release date": "2023",
+        "website": "https://www.sciencedirect.com/science/article/pii/S1044743123000404",
+        "summary": "This study presents computational models that integrate mRNA and protein dynamics to elucidate the mechanisms of synaptic plasticity. The findings highlight how local translation and molecular transport contribute to the regulation of synaptic strength, offering insights into the cellular processes underlying learning and memory."
+      },
+      {
+        "name": "An Unguided, Computerized Cognitive Behavioral Therapy Intervention (TreadWill) in a Lower Middle-Income Country: Pragmatic Randomized Controlled Trial",
+        "publisher": "Journal of Medical Internet Research",
+        "release date": "2023-04-26",
+        "website": "https://www.jmir.org/2023/1/e41005",
+        "summary": "This randomized controlled trial evaluates the effectiveness of TreadWill, an unguided computerized cognitive behavioral therapy (CBT) program, in a lower middle-income country. The results demonstrate that TreadWill significantly reduces depressive symptoms among participants, suggesting its potential as a scalable mental health intervention in resource-limited settings."
+      },
+      {
+        "name": "SpyDen: Automating molecular and structural analysis across spines and dendrites",
+        "publisher": "Cold Spring Harbor Laboratory",
+        "release date": "2024",
+        "website": "https://www.biorxiv.org/content/10.1101/2024.06.07.597872v1",
+        "summary": "SpyDen introduces an automated tool for the molecular and structural analysis of neuronal spines and dendrites. The software enhances the accuracy and efficiency of morphological assessments, facilitating large-scale studies of neuronal connectivity and plasticity."
+      },
+      {
+        "name": "An integrative model of AMPA receptor trafficking reveals the central contribution of local translation in subtype-specific kinetics",
+        "publisher": "Cold Spring Harbor Laboratory",
+        "release date": "2025",
+        "website": "https://www.biorxiv.org/content/early/2025/02/08/2025.02.08.637220",
+        "summary": "This research presents an integrative model of AMPA receptor trafficking, emphasizing the pivotal role of local protein synthesis in determining receptor subtype kinetics. The study provides a comprehensive framework for understanding how localized translation influences synaptic transmission and plasticity."
+      }
+    
+    
   ],
   "presentations": [
     {
@@ -140,13 +164,11 @@
       "description": ""
     }
   ],
-  "portfolio": [
+  "awards": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "title": "Award 1",
+      "date": "2014-01-01",
+      "awarder": "Awarding Organization"
     }
   ]
 }
