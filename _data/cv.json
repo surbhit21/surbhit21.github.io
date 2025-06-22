@@ -103,14 +103,14 @@
       },
       {
         "name": "SpyDen: Automating molecular and structural analysis across spines and dendrites",
-        "publisher": "Cold Spring Harbor Laboratory",
+        "publisher": "Bioinformatics (Oxford Academic)",
         "release date": "2024",
-        "website": "https://www.biorxiv.org/content/10.1101/2024.06.07.597872v1",
+        "website": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf339/8163946",
         "summary": "SpyDen introduces an automated tool for the molecular and structural analysis of neuronal spines and dendrites. The software enhances the accuracy and efficiency of morphological assessments, facilitating large-scale studies of neuronal connectivity and plasticity."
       },
       {
         "name": "An integrative model of AMPA receptor trafficking reveals the central contribution of local translation in subtype-specific kinetics",
-        "publisher": "Cold Spring Harbor Laboratory",
+        "publisher": "BioRxiv",
         "release date": "2025",
         "website": "https://www.biorxiv.org/content/early/2025/02/08/2025.02.08.637220",
         "summary": "This research presents an integrative model of AMPA receptor trafficking, emphasizing the pivotal role of local protein synthesis in determining receptor subtype kinetics. The study provides a comprehensive framework for understanding how localized translation influences synaptic transmission and plasticity."
@@ -148,27 +148,5 @@
       "description": ""
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award 1",
-      "date": "2014-01-01",
-      "awarder": "Awarding Organization"
-    }
-  ]
+  
 }
