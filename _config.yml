@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Surbhit Wagle"
 title_separator          : "-"
 name                     : &name "Surbhit Wagle"
-description              : &description "Computational neuroscientist working on models of synaptic plasticity and protein trafficking"
+description              : &description "Research software engineer and computational neuroscientist building reproducible machine-learning and scientific-computing systems"
 url                      : https://surbhit21.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "surbhit21/surbhit21.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Surbhit Wagle"
   pronouns         : # example: "she/her"  
-  bio              : "Computational neuroscientist working on models of synaptic plasticity and protein trafficking"
+  bio              : "Research software engineer and computational neuroscientist building reproducible machine-learning and scientific-computing systems"
   location         : "London, UK"
   employer         : "Imperial College London"
   uri              : # URL
@@ -80,7 +80,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Publications and Manuscripts'
   conferences:
     title: 'Conference Papers'
 

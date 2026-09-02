@@ -9,4 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my latest CV [here](https://drive.google.com/file/d/1k5h8HrYwqnGbDaIFmuxt_7IIv4r0NNce/view?usp=sharing)
+I am a research-focused software engineer with a PhD in computational modelling and more than six years of experience building machine-learning models, reproducible experimental workflows, optimisation pipelines, and reusable scientific software.
+
+[Download my latest CV](/files/Surbhit_Wagle_CV.pdf).
