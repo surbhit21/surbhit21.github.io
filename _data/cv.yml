@@ -1,0 +1,119 @@
+cv:
+  name: Surbhit Wagle
+  label: Research Scientist | Computational Neuroscience, Recurrent Neural Dynamics & Neuro-AI
+  email: surbhitwagle@gmail.com
+  location: London, UK
+  image: ""
+  summary: Computational neuroscientist and research scientist with a PhD in Neuroscience, working at the intersection of recurrent and oscillatory neural dynamics, synaptic and intrinsic plasticity, memory, and machine learning. Experienced in developing mathematically grounded models of neural and molecular dynamics and translating them into scalable Python and PyTorch simulations.
+
+  social_networks:
+    - network: GitHub
+      username: surbhit21
+    - network: LinkedIn
+      username: surbhitwagle
+
+  sections:
+    Experience:
+      - company: Imperial College London
+        position: Postdoctoral Research Associate
+        location: London, UK
+        start_date: 2025-06
+        end_date: present
+        highlights:
+          - Design and implement modular computational and machine-learning research frameworks in Python and PyTorch for data-intensive biological and medical research.
+          - Develop reusable scientific-computing infrastructure supporting numerical modelling, machine learning, large-scale analysis, and reproducible workflows across neuroscience and breast-cancer projects.
+          - Translate mathematically grounded models into scalable implementations with automated testing, documentation, and CI/CD.
+          - Collaborate with computational scientists, experimental researchers, and engineers to turn scientific questions into robust models and software systems.
+
+      - company: University Hospital Bonn
+        position: PhD Researcher
+        location: Bonn, Germany
+        start_date: 2023-09
+        end_date: 2025-05
+        highlights:
+          - Designed PyTorch pipelines using U-Net and Fast R-CNN architectures for biological feature detection, segmentation, and quantitative microscopy analysis.
+          - Developed Python image-analysis methods for tracing neuronal processes, detecting fluorescent puncta, and characterising neuronal morphology.
+          - Built reusable packages and end-to-end workflows integrating data ingestion, numerical methods, simulation, image processing, optimisation, and automated evaluation.
+
+      - company: University of Mainz Medical Center
+        position: PhD Researcher
+        location: Mainz, Germany
+        start_date: 2020-07
+        end_date: 2023-08
+        highlights:
+          - Developed quantitative models of molecular transport, receptor trafficking, and synaptic processes using differential equations, numerical simulation, optimisation, and data-driven modelling.
+          - Connected mathematical models with experimental measurements to investigate neuronal signalling and synaptic plasticity.
+          - Maintained reproducible computational workflows and documentation for interdisciplinary research teams.
+
+      - company: National Centre for Biological Sciences / Institute for Stem Cell Science and Regenerative Medicine
+        position: Junior Research Assistant
+        location: India
+        start_date: 2018-11
+        end_date: 2020-05
+        highlights:
+          - Developed distributed Python pipelines for large-scale parameter optimisation on HPC infrastructure.
+          - Optimised biochemical reaction-network models containing hundreds of reactions and thousands of parameters.
+          - Built REST APIs, data-processing infrastructure, and scientific web applications for biological datasets.
+
+    Education:
+      - institution: Rhenish Friedrich Wilhelm University of Bonn
+        location: Bonn, Germany
+        area: Neuroscience, computational and machine-learning focus
+        studyType: PhD, magna cum laude
+        start_date: 2020-07
+        end_date: 2025-05
+
+      - institution: Indian Institute of Technology Kanpur
+        location: India
+        area: Biological Sciences and Bioengineering
+        studyType: M.Tech.
+        start_date: 2016-07
+        end_date: 2018-08
+
+      - institution: Institute of Engineering and Technology, Indore
+        location: India
+        area: Computer Engineering
+        studyType: B.E., with distinction
+        start_date: 2012-09
+        end_date: 2016-06
+
+    Projects:
+      - name: Recurrent Network Models of Systems Consolidation and Representational Drift
+        start_date: 2025-06
+        end_date: present
+        summary: Manuscript submitted
+        highlights:
+          - Developed a multi-region recurrent rate-based neural network of hippocampal and cortical populations to investigate memory consolidation and representational drift.
+          - Modelled Hebbian plasticity, recurrent and feed-forward connectivity, intrinsic excitability, and activity-dependent intrinsic plasticity.
+          - Designed in-silico perturbations and analysed ensemble recruitment, connectivity, population activity, and population-vector correlations.
+          - Demonstrated how transient intrinsic plasticity can stabilise cortical memories despite ongoing hippocampal representational drift.
+
+      - name: Computational Modelling of Learning-Evoked Oscillatory Dynamics
+        start_date: 2026
+        end_date: present
+        summary: Developing a model of how learning-evoked slow oscillations may organise population activity and offline memory reactivation in the human medial temporal lobe.
+
+    Skills:
+      - name: Computational Neuroscience
+        level: Advanced
+        keywords: Recurrent rate-based neural networks, neural population dynamics, representational drift, systems memory consolidation, memory engrams, Hebbian plasticity, intrinsic excitability, neural reactivation
+      - name: Dynamical Systems and Mathematical Modelling
+        level: Advanced
+        keywords: Differential equations, numerical simulation, recurrent dynamics, population-vector analysis, parameter optimisation, statistical modelling, time-series analysis
+      - name: Machine Learning and Scientific Computing
+        level: Advanced
+        keywords: Python, PyTorch, NumPy, SciPy, Pandas, scikit-learn, deep learning, computer vision, unsupervised learning, model evaluation, scientific visualisation
+      - name: Research Software and Computing
+        level: Advanced
+        keywords: HPC, distributed computing, Linux, Git, Docker, Bash, CI/CD, reproducible workflows, automated testing, Python package development
+      - name: Additional Programming
+        level: Working knowledge
+        keywords: C/C++, C#, SQL
+
+    Languages:
+      - name: English
+        summary: Fluent
+      - name: Hindi
+        summary: Fluent
+      - name: German
+        summary: B1

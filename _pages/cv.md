@@ -1,14 +1,12 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: CV
+nav: true
+nav_order: 3
+cv_pdf: /assets/pdf/Surbhit_Wagle_CV.pdf
+cv_format: rendercv # options: rendercv, jsonresume
+description: Research experience, education, and technical expertise.
+toc:
+  sidebar: left
 ---
-
-{% include base_path %}
-
-I am a research-focused software engineer with a PhD in computational modelling and more than six years of experience building machine-learning models, reproducible experimental workflows, optimisation pipelines, and reusable scientific software.
-
-[Download my latest CV](/files/Surbhit_Wagle_CV.pdf).
