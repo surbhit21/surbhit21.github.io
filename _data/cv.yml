@@ -81,7 +81,7 @@ cv:
       - name: Recurrent Network Models of Systems Consolidation and Representational Drift
         start_date: 2025-06
         end_date: present
-        summary: Manuscript submitted
+        summary: Manuscript accepted
         highlights:
           - Developed a multi-region recurrent rate-based neural network of hippocampal and cortical populations to investigate memory consolidation and representational drift.
           - Modelled Hebbian plasticity, recurrent and feed-forward connectivity, intrinsic excitability, and activity-dependent intrinsic plasticity.
