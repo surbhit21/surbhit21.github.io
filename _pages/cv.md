@@ -1,12 +1,11 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: CV
+nav: true
+nav_order: 3
+cv_format: rendercv # options: rendercv, jsonresume
+description: Research experience, education, and technical expertise.
+toc:
+  sidebar: left
 ---
-
-{% include base_path %}
-
-You can find my latest CV [here](https://drive.google.com/file/d/1k5h8HrYwqnGbDaIFmuxt_7IIv4r0NNce/view?usp=sharing)
